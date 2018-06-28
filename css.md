@@ -60,6 +60,13 @@ To install sass for example `npm install node-sass --save-dev`
 * `--save-prod` --> "dependencies": These packages are **required** by your application in production.
 * `--save-dev` --> "devDependencies": These packages are only needed for **development and testing**.
 
+To uninstall a package 
+* `npm unintall <package name> [install flag]`
+
 [More info about NPM and package.json](https://docs.npmjs.com/getting-started/using-a-package.json)
 
+#### Write NPM Scrits
+on `package.json` under "scripts" you can write you're npm scripts. 
 
+* **Sass npm script:** `"node-sass <sass dir>/main.scss <css dir>/style.css"`
+* **To use the script:** `npm run <script name>`
