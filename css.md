@@ -70,3 +70,15 @@ on `package.json` under "scripts" you can write you're npm scripts.
 
 * **Sass npm script:** `"node-sass <sass dir>/main.scss <css dir>/style.css"`
 * **To use the script:** `npm run <script name>`
+
+## Basic responsive design principles
+1. **Fluid Grids and layouts:** to allow content to adapt to the currrent viewport width. Use `%` rather than `px`.
+* Float Layout
+* Flexbox
+* CSS Grid
+2. **Flexible/Responsive Images:** we need to ensure that they adapt also nicely to the viewport
+3. **Media Queries:** changes styles depending on the viewport width (breakpoints), allowing us to create different versions of our website for different widths. 
+
+## Grid system and layouts
+### Float Layout
+
