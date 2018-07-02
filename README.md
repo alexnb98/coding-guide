@@ -3,12 +3,11 @@
 ## CSS
 1. [Architecture](css/css-architecture.md)
 2. [Grid and Layout](css/grid-and-layout.md)
-3. Components
-    1. Navbar
-    2. Button
+3. [Components](css/components.md)
 4. Tips and Tricks
     1. [Writing good HTML and CSS](css/writing-good-html-css.md)
 5. Examples
+    1. [Natours Proyect](examples/natours.html)
 
 ## Workflow, Tools and Tips
 [Here](\workflow.md)
