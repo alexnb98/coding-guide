@@ -1,6 +1,7 @@
 # CSS Components
 
 ## Table of content
+
 - [CSS Components](#css-components)
     - [Table of content](#table-of-content)
     - [Checkbox Hack](#checkbox-hack)
