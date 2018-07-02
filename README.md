@@ -1,4 +1,4 @@
-# My Personal Codign Guide by Alexander Becker
+# My Personal Coding Guide by Alexander Becker
 
 ## CSS
 1. [Architecture](css/css-architecture.md)
@@ -17,6 +17,7 @@
 
 ### General
 * [Roadmap to becoming a web developer in 2018](https://github.com/kamranahmedse/developer-roadmap)
+* [Stat Counter: gives you GlobalStats about Browsers, Devices and more](http://gs.statcounter.com/)
 
 ### Learning
 * [530 Free Online Programming and computer science courses you can start in May](https://medium.freecodecamp.org/530-free-online-programming-computer-science-courses-you-can-start-in-may-5e82f5307867)
