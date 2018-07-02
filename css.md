@@ -81,4 +81,4 @@ on `package.json` under "scripts" you can write you're npm scripts.
 
 ## Grid system and layouts
 ### Float Layout
-![example of grid layout](https://github.com/alexnb98/coding-guide/gfx/grid example.png)
+![example of grid layout](https://github.com/alexnb98/coding-guide/gfx/grid example.jpg)
