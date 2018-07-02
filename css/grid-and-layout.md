@@ -8,7 +8,7 @@
 
 ## Grid system and layouts
 ### Float Layout
-![example of grid layout](gfx\grid-example.jpg)
+![example of grid layout](gfx/grid-example.jpg)
 
 #### HTML
 ```html
