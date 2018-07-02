@@ -37,14 +37,3 @@ Jonas has a lot of  resources on his [Internet page](http://codingheroes.io/reso
 ### Design
 
 ### Colors
-
----
-## TODO LIST
-- [ ] Add Checkbox Hack
-- [ ] Add Rotating Cards
-- [ ] Add Background Video
-- [ ] Add Button
-- [ ] Add Popup
-- [ ] Add color-gradient over text
-- [ ] Add how to use clip-path property
-- [ ] How to use media queries 
