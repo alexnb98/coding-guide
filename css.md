@@ -81,4 +81,41 @@ on `package.json` under "scripts" you can write you're npm scripts.
 
 ## Grid system and layouts
 ### Float Layout
-![example of grid layout](https://github.com/alexnb98/coding-guide/gfx/grid-example.png)
+![example of grid layout](gfx/grid-example.png)
+
+#### HTML
+```html
+<div class="row">
+  <div class="col-1-of-2">
+    Col 1 of 2
+  </div>
+</div>
+```
+
+#### SCSS
+```scss
+.row {
+  width: 90%;
+  margin: 0 auto;
+  
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical; //creates bottom space in every row except the last one
+  }
+  
+  //clear fix hack on .row
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+}
+
+.col-1-of-2 {
+  width: calc((100% - #{$gutter-horizontal}) / 2);
+  float: left;
+  
+  &:not(:last-child){
+    margin-rigth: $gutter-horizontal;
+    }
+}
+``` 
