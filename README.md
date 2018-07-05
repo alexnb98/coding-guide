@@ -9,7 +9,7 @@
 6. Tips and Tricks
     1. [Writing good HTML and CSS](css/writing-good-html-css.md)
 7. Examples
-    1. [Natours Proyect](css/examples/natours.html)
+    1. [Natours Proyect](https://natours.netlify.com/)
 
 ## Workflow, Tools and Tips
 [Workflow](\workflow.md)

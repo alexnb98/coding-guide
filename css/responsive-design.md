@@ -49,6 +49,8 @@ Note that when using `media queries` it is best to use `em` instead.
 
 #### For Desktop First
 
+`only screen` makes shure the media querias only get applied to screens
+
 ```scss
 @mixin md-down($breakpoint) {
     @if $breakpoint == phone {
@@ -77,6 +79,17 @@ Note that when using `media queries` it is best to use `em` instead.
     @if $breakpoint == tab-land {
         @media only screen and (min-width: 75em) { @content };    //1200px
     }
+}
+```
+
+#### Touch Devices
+
+This makes shure the styles only get applied in touch devices or devices where there is no hover possible.
+
+```scss
+
+@media screen only and (hover: none){
+    // styles
 }
 ```
 
