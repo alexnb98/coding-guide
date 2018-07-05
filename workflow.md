@@ -25,3 +25,44 @@ on `package.json` under "scripts" you can write you're npm scripts.
 
 * **Sass npm script:** `"node-sass <sass dir>/main.scss <css dir>/style.css"`
 * **To use the script:** `npm run <script name>`
+
+### Advanced NPM commands
+
+With NPM you can use more commands to make your code better, lighter and more accesible.
+
+1. Install Node Sass: `npm install node-sass --save-dev`
+2. Install Concat: `npm install concat --save-dev` (*concat is used to concatenate or paste together different css style sheets*)
+3. Install Autoprefixer: 
+    1. First `npm install autoprefixer --save-dev`
+    2. Second `npm install postcss-cli --save-dev` (*is a dependency of autoprefixer*)
+4. Compress all of it: `node-sass <input> <output> --output-style compressed` 
+
+#### final file 
+
+```json
+
+{
+  "scripts": {
+    // Develop Script
+    "watch:sass": "node-sass sass/main.scss css/style.css -w", //watches the scss files and compiles them to css
+    "devserver": "live-server", // live server lets you see the changes in real time
+    // This is the one you use when developing
+    "start": "npm-run-all --parallel devserver watch:sass", // uses node-sass and live-server at the same time
+    // Build script
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css", // compiles scss to css without watching
+    "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css", // concats style.css with icon-font.css
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css", // puts prefixes 
+    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed", // compresses the css
+    // This is the one you use to build the page
+    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css" // those all 4 above in one command
+  },
+//   These are the dev-dependencies
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "concat": "^1.0.3",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
+  }
+}
+```

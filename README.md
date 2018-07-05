@@ -3,14 +3,18 @@
 ## CSS
 1. [Architecture](css/css-architecture.md)
 2. [Grid and Layout](css/grid-and-layout.md)
-3. [Components](css/components.md)
-4. Tips and Tricks
+3. [Responsive Design](css/responsive-design.md)
+4. [Responsive Images](css/responsive-img.md)
+5. [Components](css/components.md)
+6. Tips and Tricks
     1. [Writing good HTML and CSS](css/writing-good-html-css.md)
-5. Examples
+7. Examples
     1. [Natours Proyect](css/examples/natours.html)
 
 ## Workflow, Tools and Tips
-[Here](\workflow.md)
+[Workflow](\workflow.md)
+* NPM tips
+* Sass
 
 ## Resources
 
