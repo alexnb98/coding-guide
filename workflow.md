@@ -37,7 +37,7 @@ With NPM you can use more commands to make your code better, lighter and more ac
     2. Second `npm install postcss-cli --save-dev` (*is a dependency of autoprefixer*)
 4. Compress all of it: `node-sass <input> <output> --output-style compressed` 
 
-To install all the packages in `package.json` use `npm install`
+To install all the packages in `package.json` use `npm install` 
 
 #### final file 
 

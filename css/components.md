@@ -4,58 +4,12 @@
 
 - [CSS Components](#css-components)
     - [Table of content](#table-of-content)
-    - [Change selection color](#change-selection-color)
-    - [Using Variables in CSS](#using-variables-in-css)
-    - [Working with SVG in HTML](#working-with-svg-in-html)
     - [Checkbox Hack](#checkbox-hack)
     - [Rotating Cards](#rotating-cards)
     - [Background Video](#background-video)
     - [Popup](#popup)
     - [color-gradient over text](#color-gradient-over-text)
 
-## Change selection color
-
-```scss
-::selection{
-    background-color: $primary-color;
-    color: $color-white;
-}
-```
-
-## Using Variables in CSS
-
-```css
-/* Declaration */
-:root{
-    --variable-1: #ccc;
-    --variable-2: #fff;
-}
-
-/* Use */
-body{
-    background-color: var(--variable-1);
-}
-```
-
-## Working with SVG in HTML
-
-For Icons it is now better to use SVGs instead of Icon-Fonts
-
-Good Resource to Download SVG Icons: [icomoon](https://icomoon.io/) you can even upload icons and convert them to svg.
-
-You can select a Libary and choose the number of icons you like from there.
-
-Download the ones you need. Then search for the SVG folder and more importanly `symbol-defs.svg`. This is a file with all the SVGs inside of it. So the browser will only need one server-round-trip for all the SVGs. 
-
-Use:
-
-```html
-
-<svg>
-    <!-- This will only work on an server -->
-    <use xlink:href="source/symbol-defs.svg#icon-name"></use>
-</svg>
-```
 
 
 
