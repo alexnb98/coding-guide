@@ -46,3 +46,12 @@
     }
 }
 ```
+
+## Flex Box
+
+See also: [A Complete Guide to Flexbox
+](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+![How does Flex work](gfx/flex-func.png)
+
+![Flex Properties](gfx/flex-properties.png)
