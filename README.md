@@ -1,14 +1,15 @@
 # My Personal Coding Guide by Alexander Becker
 
 ## CSS
-1. [Architecture](css/css-architecture.md)
-2. [Grid and Layout](css/grid-and-layout.md)
-3. [Responsive Design](css/responsive-design.md)
-4. [Responsive Images](css/responsive-img.md)
-5. [Components](css/components.md)
-6. Tips and Tricks
+1. [CSS Tips and Tricks](css/css-tips.md)
+2. [Architecture](css/css-architecture.md)
+3. [Grid and Layout](css/grid-and-layout.md)
+4. [Responsive Design](css/responsive-design.md)
+5. [Responsive Images](css/responsive-img.md)
+6. [Components](css/components.md)
+7. Tips and Tricks
     1. [Writing good HTML and CSS](css/writing-good-html-css.md)
-7. Examples
+8. Examples
     1. [Natours Proyect](https://natours.netlify.com/)
     2. [Trillo Proyect](http://trillo.netlify.com/)
 
