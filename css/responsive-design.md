@@ -137,6 +137,43 @@ And add the mixins at the end of your styles. Examples:
 }
 ```
 
+### My Custom VS Code Snippets for using the mixins
+
+```json
+
+{
+    "Media Query Down": {
+        "prefix": "mq-down",
+        "body": [
+            "@include mq-down(${bp}) {",
+                "",
+            "}"
+        ],
+        "description": "Media Query Desktop First"
+    },
+    "Media Query Up": {
+        "prefix": "mq-up",
+        "body": [
+            "@include mq-up(${bp}) {",
+                "",
+            "}"
+        ],
+        "description": "Media Query Mobile First"
+    },
+    "Media Query Up": {
+        "prefix": "mq-only",
+        "body": [
+            "@include mq-only(${bp-min}, ${bp-max}) {",
+                "",
+            "}"
+        ],
+        "description": "Media Query Between Ranges"
+    },
+}
+```
+
+File Name: `scss.json`
+
 ## Browser support
 
 Test always for browser support with [caniuse.com](https://caniuse.com/)
