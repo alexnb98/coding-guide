@@ -145,8 +145,8 @@ And add the mixins at the end of your styles. Examples:
     "Media Query Down": {
         "prefix": "mq-down",
         "body": [
-            "@include mq-down(${bp}) {",
-                "",
+            "@include mq-down(${1:bp}) {",
+                "\t$0",
             "}"
         ],
         "description": "Media Query Desktop First"
@@ -154,8 +154,8 @@ And add the mixins at the end of your styles. Examples:
     "Media Query Up": {
         "prefix": "mq-up",
         "body": [
-            "@include mq-up(${bp}) {",
-                "",
+            "@include mq-up(${1:bp}) {",
+                "\t$0",
             "}"
         ],
         "description": "Media Query Mobile First"
@@ -163,8 +163,8 @@ And add the mixins at the end of your styles. Examples:
     "Media Query Up": {
         "prefix": "mq-only",
         "body": [
-            "@include mq-only(${bp-min}, ${bp-max}) {",
-                "",
+            "@include mq-only(${1:bp-min}, ${2:bp-max}) {",
+                "\t$0",
             "}"
         ],
         "description": "Media Query Between Ranges"
