@@ -120,6 +120,23 @@ And add the mixins at the end of your styles. Examples:
     }
 ```
 
+## Custom Media Queries
+
+```scss
+
+@mixin mq-down($bp) {
+    @media only screen and (max-width: $bp) { @content };
+}
+
+@mixin mq-up($bp) {
+    @media only screen and (min-width: $bp) { @content };
+}
+
+@mixin mq-only($bp-min, $bp-max) {
+    @media (min-width: $bp1) and (max-width: $bp2) { @content };
+}
+```
+
 ## Browser support
 
 Test always for browser support with [caniuse.com](https://caniuse.com/)
