@@ -174,6 +174,8 @@ And add the mixins at the end of your styles. Examples:
 
 File Name: `scss.json`
 
+Save in: `...\Code\User\snippets`
+
 ## Browser support
 
 Test always for browser support with [caniuse.com](https://caniuse.com/)
