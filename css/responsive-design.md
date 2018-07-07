@@ -133,7 +133,7 @@ And add the mixins at the end of your styles. Examples:
 }
 
 @mixin mq-only($bp-min, $bp-max) {
-    @media (min-width: $bp1) and (max-width: $bp2) { @content };
+    @media (min-width: $bp-min) and (max-width: $bp-max) { @content };
 }
 ```
 
