@@ -1,6 +1,7 @@
 # My Personal Coding Guide by Alexander Becker
 
 ## CSS
+
 1. [CSS Tips and Tricks](css/css-tips.md)
 2. [Architecture](css/css-architecture.md)
 3. [Grid and Layout](css/grid-and-layout.md)
@@ -13,6 +14,10 @@
     1. [Natours Proyect](https://natours.netlify.com/)
     2. [Trillo Proyect](http://trillo.netlify.com/)
     3. [Nexter](https://nexter.netlify.com/)
+
+## JS
+
+1. [Basics](js/js_basics.md)
 
 ## Workflow, Tools and Tips
 [Workflow](\workflow.md)
