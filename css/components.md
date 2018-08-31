@@ -10,9 +10,6 @@
     - [Popup](#popup)
     - [color-gradient over text](#color-gradient-over-text)
 
-
-
-
 ## Checkbox Hack
 
 The HTML
@@ -57,7 +54,9 @@ SCSS
 ![example of cards](gfx/cards.png)
 
 HMTL
+
 ```html
+
 <div class="card">
     <!-- FRONT -->
     <div class="card__side card__side--front">
@@ -83,7 +82,9 @@ HMTL
 ```
 
 SCSS
+
 ```scss
+
 .card {
     // FUNCTIONALITY
     perspective: 150rem;
@@ -125,6 +126,7 @@ SCSS
 ## Background Video
 
 HTML
+
 ```html
 <section class="section-stories">
     <div class="bg-video">
@@ -166,6 +168,7 @@ SCSS
 ## Popup
 
 HTML
+
 ```html
 <!-- activator -->
 <a href="#popup" class="btn">Activate popup!</a>
@@ -178,6 +181,7 @@ HTML
 ```
 
 SCSS
+
 ```scss
 .popup {
     // creates a black semi-transparend background
@@ -220,10 +224,12 @@ HTML
 <h2 class="heading">
     Hello World
 </h2>
-``` 
+```
 
 SCSS
+
 ```scss
+
 .heading {
     // styles
 
@@ -231,5 +237,37 @@ SCSS
     background-image: linear-gradient(to right, $color-primary, $color-secondary);
     -webkit-background-clip: text;
     color: transparent;
+}
+```
+
+Using SVG as Icons in CSS
+
+![Example](gfx/svg-icons.png)
+
+There are to Options
+
+```scss
+
+.item::before{
+    content: "";
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+
+    // Option 1 // Older Browsers
+    background-image: url(path/image.png);
+    background-size: cover;
+
+    // To use both use @support like this
+    @support (-webkit-mask-image: url()) or (mask-image: url()){
+        // Option 2 // Less Support - Enables you to change color of svg
+        background-color: $color;
+        -webkit-mask-image: url(path/image.png);
+        -webkit-mask-size: cover;
+        mask-image: url(path/image.png);
+        mask-size: cover;
+        // So you can use both
+        background-image: none;
+    }
 }
 ```

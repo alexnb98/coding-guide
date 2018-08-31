@@ -53,7 +53,7 @@ To install all the packages in `package.json` use `npm install`
     // Build script
     "compile:sass": "node-sass sass/main.scss css/style.comp.css", // compiles scss to css without watching
     "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css", // concats style.css with icon-font.css
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css", // puts prefixes 
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.concat.css -o css/style.prefix.css", // puts prefixes 
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed", // compresses the css
     // This is the one you use to build the page
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css" // those all 4 above in one command
