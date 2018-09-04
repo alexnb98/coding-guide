@@ -18,6 +18,7 @@
 ## JS
 
 1. [Basics](js/js_basics.md)
+2. [Usefull JS functions and methods](js/usefull-js-functions.md)
 
 ## Workflow, Tools and Tips
 [Workflow](\workflow.md)
