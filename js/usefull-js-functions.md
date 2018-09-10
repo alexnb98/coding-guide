@@ -7,7 +7,7 @@ Calculate random number:
 ```js
 
 function randomNumber(minNum, maxNum){
-    return Math.floor(Math.random() * maxNum) + minNum;
+    return Math.floor(Math.random() * maxNum + 1) + minNum;
 }
 ```
 
