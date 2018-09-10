@@ -18,7 +18,9 @@
 ## JS
 
 1. [Basics](js/js_basics.md)
-2. [Usefull JS functions and methods](js/usefull-js-functions.md)
+2. [Usefull JS functions, methods and evenlisteners](js/usefull-js-functions.md)
+3. [Objects](js/js-objects.md)
+4. [Functions](js/js-functions.md)
 
 ## Workflow, Tools and Tips
 [Workflow](\workflow.md)

@@ -33,6 +33,12 @@ use to define html inside an html element
 To change CSS property:
 `style.cssProperty = 'cssValue'`
 
+### Methods for calling functions
+
+* `call()`
+* `apply();`
+* `bind()`
+
 ## Event Listener
 
 [Event Listeners table](https://developer.mozilla.org/en-US/docs/Web/Events)
