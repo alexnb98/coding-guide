@@ -21,6 +21,7 @@
 2. [Usefull JS functions, methods and evenlisteners](js/usefull-js-functions.md)
 3. [Objects](js/js-objects.md)
 4. [Functions](js/js-functions.md)
+5. [ES6](js/es6.md)
 
 ## Workflow, Tools and Tips
 [Workflow](\workflow.md)
