@@ -22,6 +22,7 @@
 3. [Objects](js/js-objects.md)
 4. [Functions](js/js-functions.md)
 5. [ES6](js/es6.md)
+6. [Things I learned with the forkify App](js/things-learned-in-complete-js-course.md)
 
 ## Workflow, Tools and Tips
 [Workflow](\workflow.md)
